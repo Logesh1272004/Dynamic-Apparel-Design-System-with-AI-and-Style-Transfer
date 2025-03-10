@@ -5,6 +5,7 @@
 Neural Style Transfer (NST) is a deep learning technique that applies the artistic style of one image to another while preserving the original image's structure. This project implements NST using a **pretrained VGG19 model** to blend content and style images effectively.
 
 ## Dataset Information
+Datast Used : Mnist dataset
 The dataset consists of two main image inputs:
 - **Content Image**: The base image that retains its structure.
 - **Style Image**: The reference image whose artistic style is applied to the content image.
