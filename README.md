@@ -13,8 +13,8 @@ These images are loaded and preprocessed using a custom `ImageLoader` utility to
 
 ## Preprocessing Steps
 1. **Load Images**: The content and style images are read and resized to the required dimensions.
-   ![Alt Text](Images/1.png)
-  ![Alt Text](Images/2.png)
+   ![Alt Text](Images/1.jpg)
+  ![Alt Text](Images/2.jpg)
 
 3. **Normalization**: Convert the image pixel values to a range suitable for the VGG19 model.
 4. **Transformation**: Convert images to tensors and apply necessary transformations like scaling and cropping.
