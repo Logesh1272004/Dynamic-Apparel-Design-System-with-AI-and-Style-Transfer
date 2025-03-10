@@ -32,7 +32,9 @@ These images are loaded and preprocessed using a custom `ImageLoader` utility to
 3. **Define Content and Style Layers**.
 4. **Load and Display Input Images**.
 5. **Compile and Train the Model** to minimize content and style losses.
-6. **Generate and Display the Output Image**.
+6. ![Alt Text](Images/3.jpg)
+7. ![Alt Text](Images/4.jpg)
+8. **Generate and Display the Output Image**.
 
 ## Model Evaluation
 - **Content Loss**: Measures the difference between the generated image and the original content image.
@@ -44,6 +46,7 @@ These images are loaded and preprocessed using a custom `ImageLoader` utility to
 - The model successfully transfers the style of the reference image to the content image.
 - The generated image retains the structure of the content image while adopting the artistic features of the style image.
 - The effectiveness of style transfer is influenced by hyperparameters such as content weight, style weight, and optimization steps.
+- ![Alt Text](Images/5.jpg)
 
 ## Conclusion
 This project demonstrates how deep learning can be leveraged for artistic image generation using Neural Style Transfer. By utilizing a pretrained VGG19 model, we can achieve high-quality style transfer while preserving key structural details. Future improvements can include optimizing performance and experimenting with different loss functions for better stylization.
